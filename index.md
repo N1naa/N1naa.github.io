@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: ADA
 subtitle: A Data Story of Connected Nodes
 ---
