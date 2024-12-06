@@ -1,6 +1,5 @@
 ---
-layout: minimal
-title: ADA
-subtitle: A Data Story of Connected Nodes
+layout: home
+title: "Welcome to Collectif_Metisser"
+permalink: /
 ---
-
