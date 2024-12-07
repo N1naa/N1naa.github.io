@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Collectif Metisser"
-subtitle: "A Data Story of Connected Nodes <33"
+subtitle: "A Data Story of Connected Nodes <3"
 ---
 
 <div class="main-content">
@@ -88,6 +88,7 @@ subtitle: "A Data Story of Connected Nodes <33"
             Your browser does not support the video tag.
         </video>
     </div>
+    <p>&nbsp;</p>
 
     <h5>Edge Features</h5>
     <h>Preferential Attachment: Preferential attachment is the principle that a node with more connections is more likely to acquire additional links. This approach assumes that the likelihood of a new connection involving a node x is directly proportional to the number of its existing neighbors. Additionally, the likelihood of two nodes, x and y, forming a co-authorship connection is related to the product of their respective collaborator counts.
@@ -121,12 +122,13 @@ subtitle: "A Data Story of Connected Nodes <33"
     <br>
     <h>Node2Vec: Node2Vec is an algorithm designed to create vector representations (embeddings) of nodes in a network by simulating biased random walks. This allows for capturing both local neighborhood structures and global network relationships. Node2Vec strikes a balance between breadth-first (BFS) and depth-first (DFS) strategies, enabling the embeddings to capture both homophilic (similar nodes connected) and structural equivalences (nodes playing similar roles in different parts of the graph).
 
-
+    <p>&nbsp;</p>
     <h1>Data's Finale</h1>
     <p>Talk about what happend to our data after connections</p>
 
-
-    <h1>Thank you for discovering our story :)</h1>
+    <p>&nbsp;</p>
+    <h1>Thank you for discovering our story :) </h1>
+    <p>&nbsp;</p>
     <div class="video-container">
         <video autoplay muted loop playsinline class="centered-video">
             <source src="{{ '/assets/videos/creepy_head.mp4' | relative_url }}" type="video/mp4">
