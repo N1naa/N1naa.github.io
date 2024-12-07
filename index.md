@@ -13,23 +13,21 @@ subtitle: "A Data Story of Connected Nodes <33"
         </video>
     </div>
 
+    <h1>Some music to accompany you through your experience ... </h1>
+    <iframe src="https://open.spotify.com/embed/track/YOUR_TRACK_ID" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
     <h1>Data's Origin Story</h1>
     <p>Talk about where our data comes from, how it is collected etc.</p>
 
-    <h2>Graphical Statistical Analysis</h2>
+    <h3>Graphical Statistical Analysis</h3>
     <h>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps. Here is a distribution of common neighbors:</h>
 
-    
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4nOOoo9OJbgnTBNHe5b6nD?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-    <h2>Feature Engineering</h2>
+    <h3>Feature Engineering</h3>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation.</h>
 
-    ![Image Description]({{ '/assets/img/distr_common_neighbors.png' | relative_url }})
-    ![Image Description](/assets/img/distr_common_neighbors.png)
-
     <img src="{{ '/assets/img/distr_common_neighbors.png' | relative_url }}" alt="Image Description">
-
-
 
     <h1>Data's Analysis</h1>
     <p>Talk about our model and metrics</p>
