@@ -24,6 +24,10 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4nOOoo9OJbgnTBNHe5b6nD?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+
+    <iframe width="560" height="315" src="https://music.youtube.com/watch?v=xfV8SLbHWYs&si=Jr2P27dUc22_i0iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
     <h3>Feature Engineering</h3>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation.</h>
 
