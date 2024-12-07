@@ -14,13 +14,13 @@ subtitle: "A Data Story of Connected Nodes <333"
     </div>
 
     <h1>Data's Origin Story</h1>
-    <p>This is the static content I want to display in the middle of my page.</p>
+    <p>Talk about where our data comes from, how it is collected etc.</p>
 
     <h1>Data's Analysis</h1>
-    <p>This is the static content I want to display in the middle of my page.</p>
+    <p>Talk about our model and metrics</p>
 
     <h1>Data's Finale</h1>
-    <p>This is the static content I want to display in the middle of my page.</p>
+    <p>Talk about what happend to our data after connections</p>
 </div>
 
 <style>
@@ -30,8 +30,7 @@ subtitle: "A Data Story of Connected Nodes <333"
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;  /* Add space between video and content */
-    padding: 0; /* No horizontal padding to the video */
-    width: 100%;  /* Make sure the video container spans the full width */
+    padding: 0 20px; /* Add some horizontal padding */
   }
 
   /* Make the video larger and higher */
@@ -43,19 +42,8 @@ subtitle: "A Data Story of Connected Nodes <333"
 
   /* Increase the content's margin for more spacing on the page */
   .main-content {
-    margin: 0 auto;    /* Center the main content */
-    max-width: 1200px;  /* Increase the maximum width of the content */
-    padding: 20px;      /* Add padding around content to prevent it from touching edges */
-    width: 100%;        /* Allow the content to take full width */
-  }
-
-  /* Add some margin to h1 and paragraphs for better spacing */
-  h1 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-
-  p {
-    margin-bottom: 20px;
+    margin: 0 auto;    /* Center content */
+    max-width: 1200px;  /* You can adjust this width to make the content wider */
+    padding: 20px;      /* Add some padding for spacing around the content */
   }
 </style>
