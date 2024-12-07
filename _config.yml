@@ -139,7 +139,7 @@ page-col: "#444649"
 text-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-navbar-col: "#444649"
+navbar-col: "#000000"
 navbar-text-col: "#FFFFFF"
 navbar-border-col: "#DDDDDD"
 footer-col: "#EAEAEA"
@@ -152,7 +152,7 @@ footer-hover-col: "#0085A1"
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
-page-img: "/assets/img/photo-stone-texture-pattern_58702-14125.jpg"
+page-img: "/assets/img/photo-stone-texture-pattern_58702-14125-2.jpg"
 site-css:
   - "/assets/css/custom-styles.css"
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
