@@ -13,7 +13,12 @@ subtitle: "A Data Story of Connected Nodes <33"
         </video>
     </div>
 
-    <h1>Some music to accompany you through your experience ... </h1>
+    <h1>Some music to accompany you through your experience ... What's your mood? </h1>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3sP0pCSFv02t822yGiR5O5?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2FnMQEvfbdSI0AI9mKM5by?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
     <audio controls>
         <source src="{{ '/assets/audio/your-audio.mp3' | relative_url }}" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -25,7 +30,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
 
     <h3>Graphical Statistical Analysis</h3>
-    <h>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps. Here is a distribution of common neighbors:</h>
+    <h></h>
 
     <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}">
 
