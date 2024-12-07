@@ -21,8 +21,9 @@ layout: null
   /* common CSS variables */
   --body-font: 'Roboto Mono', monospace;
   --header-font: 'Poppins', sans-serif;
-  /*--body-font: 'Lora', 'Times New Roman', serif;*/
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*--body-font: 'Lora', 'Times New Roman', serif;
+  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  --header-font: 'Poppins', sans-serif;
   --mid-col: #808080;
 }
 
