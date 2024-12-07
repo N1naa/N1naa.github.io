@@ -14,7 +14,12 @@ subtitle: "A Data Story of Connected Nodes <33"
     </div>
 
     <h1>Some music to accompany you through your experience ... </h1>
-    <iframe src="https://open.spotify.com/embed/track/YOUR_TRACK_ID" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <audio controls>
+        <source src="{{ '/assets/audio/your-audio.mp3' | relative_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p>This music is courtesy of our friend, and music writer/producer DINA.</p>
 
     <h1>Data's Origin Story</h1>
     <p>Talk about where our data comes from, how it is collected etc.</p>
@@ -22,10 +27,6 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h3>Graphical Statistical Analysis</h3>
     <h>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps. Here is a distribution of common neighbors:</h>
 
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4nOOoo9OJbgnTBNHe5b6nD?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-
-    <iframe width="560" height="315" src="https://music.youtube.com/watch?v=xfV8SLbHWYs&si=Jr2P27dUc22_i0iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
     <h3>Feature Engineering</h3>
