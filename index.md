@@ -25,9 +25,12 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation.</h>
 
     ![Image Description]({{ '/assets/img/distr_common_neighbors.png' | relative_url }})
+    ![Image Description](/assets/img/distr_common_neighbors.png)
+
+    <img src="{{ '/assets/img/distr_common_neighbors.png' | relative_url }}" alt="Image Description">
 
 
-    
+
     <h1>Data's Analysis</h1>
     <p>Talk about our model and metrics</p>
 

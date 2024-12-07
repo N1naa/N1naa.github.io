@@ -16,7 +16,7 @@ body::before {
 /* This is added to modify the inital margins defined by the beautiful jekyll theme. container-md is identified through inspection of the site */
 .home-container {
   width: 100%;           /* Takes up 100% of the available width */
-  max-width: 3500px;     /* Maximum width, so it doesn’t grow too wide */
+  max-width: 4000px;     /* Maximum width, so it doesn’t grow too wide */
   margin: 0 auto;        /* Centers the container horizontally */
   padding: 0 15px;       /* Small padding inside (optional) */
   text-align: center;    /* Center the text inside the container */
@@ -25,7 +25,7 @@ body::before {
 /* Another container with the same settings */
 .container-md {
   width: 100%;           /* Takes up 100% of the available width */
-  max-width: 3500px;     /* Maximum width */
+  max-width: 40000px;     /* Maximum width */
   margin: 0 auto;        /* Centers the container horizontally */
   padding: 0 15px;       /* Small padding inside (optional) */
   text-align: center;    /* Center the text inside the container */
