@@ -13,17 +13,18 @@ body::before {
     pointer-events: none; /* Ensure the background doesn’t block interactions */
   }
 
-  .home-container {
-    width: 100%;           /* Takes up 80% of the container width */
-    max-width: 1200px;    /* Maximum width */
-    margin: 0 20px;       /* Small horizontal margins */
-    padding: 0 15px;  
-  }
-  
-  .container-md {
-    width: 100%;           /* Takes up 80% of the container width */
-    max-width: 1200px;    /* Maximum width */
-    margin: 0 20px;       /* Small horizontal margins */
-    padding: 0 15px;  
-  }
-  
+/* Home container with a large width and small horizontal margins */
+.home-container {
+  width: 100%;           /* Takes up 100% of the available width */
+  max-width: 1800px;     /* Maximum width, so it doesn’t grow too wide */
+  margin: 0 auto;        /* Centers the container horizontally */
+  padding: 0 15px;       /* Small padding inside (optional) */
+}
+
+/* Another container with the same settings */
+.container-md {
+  width: 100%;           /* Takes up 100% of the available width */
+  max-width: 1800px;     /* Maximum width */
+  margin: 0 auto;        /* Centers the container horizontally */
+  padding: 0 15px;       /* Small padding inside (optional) */
+}
