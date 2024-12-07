@@ -19,9 +19,15 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h2>Graphical Statistical Analysis</h2>
     <h>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps. Here is a distribution of common neighbors:</h>
 
-    ![Image Description]({{ '/assets/img/distr_common_neighbors' | relative_url }})
+    
+
+    <h2>Feature Engineering</h2>
+    <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation.</h>
+
+    ![Image Description]({{ '/assets/img/distr_common_neighbors.png' | relative_url }})
 
 
+    
     <h1>Data's Analysis</h1>
     <p>Talk about our model and metrics</p>
 
