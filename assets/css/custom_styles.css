@@ -13,7 +13,7 @@ body::before {
     pointer-events: none; /* Ensure the background doesn’t block interactions */
   }
 
-/* Home container with a large width and small horizontal margins */
+/* This is added to modify the inital margins defined by the beautiful jekyll theme. container-md is identified through inspection of the site */
 .home-container {
   width: 100%;           /* Takes up 100% of the available width */
   max-width: 2500px;     /* Maximum width, so it doesn’t grow too wide */
