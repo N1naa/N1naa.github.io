@@ -87,7 +87,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     Discussion: The preferential attachment scores for the connected pairs can have very large values because we have a very connected and sparse graph. However, some nodes have a very high degree, resulting in large values (x_value range). In contrast, the preferential attachment scores for unconnected pairs are significantly smaller. This is due to the fact that these unconnected nodes, lacking a direct link, generally have less common neighbors, reducing the likelihood of a connection (under the preferential attachment mechanism). This difference highlights the impact of common neighbors on connection probability and underscores the structural differences between connected and unconnected pairs in the network.</h>
     <br>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/PreferentialAttachment.png' | relative_url }}">
+    <img src="{{ '/assets/img/prefAttachment_dark.png.png' | relative_url }}">
     <p>&nbsp;</p>
     <br>
 
@@ -96,7 +96,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     Discussion: Below we compare the Jaccard's coefficients for both connected and unconnected node pairs. As expected, the Jaccard coefficient values are higher for connected node pairs, as the likelihood of sharing a neighbor increases when nodes are directly connected.</h>
     <br>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/Jaccard.png' | relative_url }}">
+    <img src="{{ '/assets/img/Jaccard_dark.png' | relative_url }}">
     <p>&nbsp;</p>
     <br>
 
@@ -105,7 +105,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     Discussion: We observed the differences between connected and unconnected pairs of nodes. As expected, the values for connected pairs of nodes are larger than those for unconnected pairs of nodes because there is a greater likelihood of shared connections or features when nodes are directly linked.</h>
     <br>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/adamadar.png' | relative_url }}">
+    <img src="{{ '/assets/img/adamicadar_dark.png' | relative_url }}">
     <p>&nbsp;</p>
     <br>
 
