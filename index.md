@@ -49,8 +49,8 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
 
     <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
-    <img src="{{ '/assets/img/PageRank.png' | relative_url }}" alt="PageRank Algorithm" style="max-width: 45%; height: auto;">
-    <img src="{{ '/assets/img/EigenVectorCentrality.png' | relative_url }}" alt="Eigenvector Centrality" style="max-width: 45%; height: auto;">
+        <img src="{{ '/assets/img/PageRank.png' | relative_url }}" alt="PageRank Algorithm" style="max-width: 45%; height: auto; flex-shrink: 1;">
+        <img src="{{ '/assets/img/EigenVectorCentrality.png' | relative_url }}" alt="Eigenvector Centrality" style="max-width: 45%; height: auto; flex-shrink: 1;">
     </div>
 
     <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
@@ -69,7 +69,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
     <br>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/boxPlotCosine.png' | relative_url }}">
+    <img src="{{ '/assets/img/cosine_bars_dark.png' | relative_url }}">
     <p>&nbsp;</p>
     <br>
     <p>&nbsp;</p>
@@ -77,7 +77,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     <p>&nbsp;</p>
     <br>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/connectionProba.png' | relative_url }}" width="600">
+    <img src="{{ '/assets/img/probas_dark.png' | relative_url }}" width="600">
     <p>&nbsp;</p>
     <br>
 
