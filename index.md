@@ -42,7 +42,6 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}">
     
-    <h1>Data's Feature Engineering</h1>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
     <br>
     <h5>Node Features</h5>
@@ -80,6 +79,16 @@ subtitle: "A Data Story of Connected Nodes <33"
     <img src="{{ '/assets/img/probas_dark.png' | relative_url }}" width="600">
     <p>&nbsp;</p>
     <br>
+
+    <h1>Data's Feature Engineering</h1>
+    <h>Now we can finally explore the feature characteristics...</h>
+
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="centered-video">
+            <source src="{{ '/assets/videos/cool_crypto.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <h5>Edge Features</h5>
     <h>Preferential Attachment: Preferential attachment is the principle that a node with more connections is more likely to acquire additional links. This approach assumes that the likelihood of a new connection involving a node x is directly proportional to the number of its existing neighbors. Additionally, the likelihood of two nodes, x and y, forming a co-authorship connection is related to the product of their respective collaborator counts.
