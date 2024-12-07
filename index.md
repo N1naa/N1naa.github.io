@@ -38,6 +38,14 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <h1>Data's Finale</h1>
     <p>Talk about what happend to our data after connections</p>
+
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="centered-video">
+            <source src="{{ '/assets/videos/creepy_head.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
 </div>
 
 <style>
