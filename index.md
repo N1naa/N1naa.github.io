@@ -48,11 +48,12 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h5>Node Features</h5>
     <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
 
-    <img src="{{ '/assets/img/PageRank.png' | relative_url }}">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
+    <img src="{{ '/assets/img/PageRank.png' | relative_url }}" alt="PageRank Algorithm" style="max-width: 45%; height: auto;">
+    <img src="{{ '/assets/img/EigenVectorCentrality.png' | relative_url }}" alt="Eigenvector Centrality" style="max-width: 45%; height: auto;">
+    </div>
 
     <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
-
-    <img src="{{ '/assets/img/EigenVectorCentrality.png' | relative_url }}">
 
     <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
 
@@ -62,6 +63,13 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <img src="{{ '/assets/img/distributionCosine.png' | relative_url }}">
 
+    <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
+
+    <img src="{{ '/assets/img/boxPlotCosine.png' | relative_url }}">
+
+    <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
+
+    <img src="{{ '/assets/img/connectionProba.png' | relative_url }}">
 
     <h1>Data's Finale</h1>
     <p>Talk about what happend to our data after connections</p>
