@@ -12,13 +12,14 @@ body::before {
     z-index: -1;
     pointer-events: none; /* Ensure the background doesn’t block interactions */
   }
-
+/*
   .home-container {
     margin: 2000px auto; /* Adjust as needed */
-    padding: 10px; /* Optional: Adjust spacing */
+    padding: 10px; /* Optional: Adjust spacing *//*
   }
   
   .container-md {
-    max-width: 2000px; /* Add margin for all .container-md elements */
-    padding: 20px; /* Optional */
+    max-width: 2000px; /* Add margin for all .container-md elements *//*
+    padding: 20px; /* Optional *//*
   }
+  */
