@@ -5,7 +5,6 @@ subtitle: "A Data Story of Connected Nodes <33"
 ---
 
 <div class="main-content">
-
     <div class="video-container">
         <video autoplay muted loop playsinline class="centered-video">
             <source src="{{ '/assets/videos/3130284-uhd_3840_2160_30fps.mp4' | relative_url }}" type="video/mp4">
@@ -108,7 +107,6 @@ subtitle: "A Data Story of Connected Nodes <33"
             Your browser does not support the video tag.
         </video>
     </div>
-
 </div>
 
 <style>
