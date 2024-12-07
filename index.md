@@ -38,7 +38,6 @@ subtitle: "A Data Story of Connected Nodes <33"
     <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
 
     <h5>Graphical Statistical Analysis</h5>
-    <h></h>
 
     <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}">
     
@@ -96,7 +95,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     Discussion: The preferential attachment scores for the connected pairs can have very large values because we have a very connected and sparse graph. However, some nodes have a very high degree, resulting in large values (x_value range). In contrast, the preferential attachment scores for unconnected pairs are significantly smaller. This is due to the fact that these unconnected nodes, lacking a direct link, generally have less common neighbors, reducing the likelihood of a connection (under the preferential attachment mechanism). This difference highlights the impact of common neighbors on connection probability and underscores the structural differences between connected and unconnected pairs in the network.</h>
     <br>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/prefAttachment_dark.png.png' | relative_url }}">
+    <img src="{{ '/assets/img/prefAttachment_dark.png' | relative_url }}">
     <p>&nbsp;</p>
     <br>
 
