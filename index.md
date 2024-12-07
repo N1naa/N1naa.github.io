@@ -56,20 +56,29 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
 
     <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
-
+    <p>&nbsp;</p>
     <img src="{{ '/assets/img/distr_common_neighbors.png' | relative_url }}">
+    <p>&nbsp;</p>
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
+    <p>&nbsp;</p>
     <img src="{{ '/assets/img/distributionCosine.png' | relative_url }}">
+    <p>&nbsp;</p>
     <br>
     <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
     <br>
+    <p>&nbsp;</p>
     <img src="{{ '/assets/img/boxPlotCosine.png' | relative_url }}">
+    <p>&nbsp;</p>
     <br>
+    <p>&nbsp;</p>
     <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
+    <p>&nbsp;</p>
     <br>
+    <p>&nbsp;</p>
     <img src="{{ '/assets/img/connectionProba.png' | relative_url }}">
+    <p>&nbsp;</p>
     <br>
 
     <h5>Edge Features</h5>
@@ -77,7 +86,9 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     Discussion: The preferential attachment scores for the connected pairs can have very large values because we have a very connected and sparse graph. However, some nodes have a very high degree, resulting in large values (x_value range). In contrast, the preferential attachment scores for unconnected pairs are significantly smaller. This is due to the fact that these unconnected nodes, lacking a direct link, generally have less common neighbors, reducing the likelihood of a connection (under the preferential attachment mechanism). This difference highlights the impact of common neighbors on connection probability and underscores the structural differences between connected and unconnected pairs in the network.</h>
     <br>
+    <p>&nbsp;</p>
     <img src="{{ '/assets/img/PreferentialAttachment.png' | relative_url }}">
+    <p>&nbsp;</p>
     <br>
 
     <h>Jaccard similarity: The Jaccard's coefficient is a commonly used similarity metric in information retrieval. It measures the probability that both x and y have a feature f, knowing that x or y has the feature f (which is randomly selected). In our case, the features are the neighbors. It is defined as the size of the intersection divided by the size of the union of the sets.
@@ -93,7 +104,9 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     Discussion: We observed the differences between connected and unconnected pairs of nodes. As expected, the values for connected pairs of nodes are larger than those for unconnected pairs of nodes because there is a greater likelihood of shared connections or features when nodes are directly linked.</h>
     <br>
+    <p>&nbsp;</p>
     <img src="{{ '/assets/img/adamadar.png' | relative_url }}">
+    <p>&nbsp;</p>
     <br>
 
     <h5>Graph Features</h5>
