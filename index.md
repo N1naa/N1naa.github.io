@@ -55,7 +55,7 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/distr_common_dark.png' | relative_url }}">
+    <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p>
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
@@ -125,6 +125,8 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h1>Data's Finale</h1>
     <p>Talk about what happend to our data after connections</p>
 
+
+    <h1>Thank you for discovering our story :)</h1>
     <div class="video-container">
         <video autoplay muted loop playsinline class="centered-video">
             <source src="{{ '/assets/videos/creepy_head.mp4' | relative_url }}" type="video/mp4">
