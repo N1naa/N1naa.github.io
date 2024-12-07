@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Collectif Metisser"
-subtitle: "A Data Story of Connected Nodes <333"
+subtitle: "A Data Story of Connected Nodes <33"
 ---
 
 <div class="main-content">
@@ -20,6 +20,7 @@ subtitle: "A Data Story of Connected Nodes <333"
     <h>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps. Here is a distribution of common neighbors:</h>
 
     ![Image Description]({{ '/assets/img/distr_common_neighbors' | relative_url }})
+
 
     <h1>Data's Analysis</h1>
     <p>Talk about our model and metrics</p>
