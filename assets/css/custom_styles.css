@@ -19,6 +19,6 @@ body::before {
   }
   
   .container-md {
-    max-width: 900px; /* Add margin for all .container-md elements */
-    padding: 15px; /* Optional */
+    max-width: 1300px; /* Add margin for all .container-md elements */
+    padding: 20px; /* Optional */
   }
