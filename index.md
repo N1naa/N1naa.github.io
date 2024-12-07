@@ -77,7 +77,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     <p>&nbsp;</p>
     <br>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/connectionProba.png' | relative_url }}">
+    <img src="{{ '/assets/img/connectionProba.png' | relative_url }}" width="600">
     <p>&nbsp;</p>
     <br>
 
