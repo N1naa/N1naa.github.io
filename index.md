@@ -30,12 +30,20 @@ subtitle: "A Data Story of Connected Nodes <333"
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;  /* Add space between video and content */
+    padding: 0 20px; /* Add some horizontal padding */
   }
 
-  /* Limit the video's size */
+  /* Make the video larger and higher */
   .centered-video {
-    width: 100%;      /* Allow the video to take the full width of its container */
-    max-width: 1000px; /* Limit the width to 1000px, adjust if necessary */
-    height: auto;    /* Keep aspect ratio intact */
+    width: 100%;      /* Make video take full width of the container */
+    height: 80vh;     /* Set the height to 80% of the viewport height (you can adjust this) */
+    object-fit: cover; /* Ensures video covers the space without stretching */
+  }
+
+  /* Increase the content's margin for more spacing on the page */
+  .main-content {
+    margin: 0 auto;    /* Center content */
+    max-width: 1200px;  /* You can adjust this width to make the content wider */
+    padding: 20px;      /* Add some padding for spacing around the content */
   }
 </style>
