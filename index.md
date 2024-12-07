@@ -42,7 +42,7 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}">
     
-    <h1>Data's feature Engineering</h1>
+    <h1>Data's Feature Engineering</h1>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
     <br>
     <h5>Node Features</h5>
@@ -57,7 +57,7 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
     <p>&nbsp;</p>
-    <img src="{{ '/assets/img/distr_common_neighbors.png' | relative_url }}">
+    <img src="{{ '/assets/img/distr_common_dark.png' | relative_url }}">
     <p>&nbsp;</p>
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
