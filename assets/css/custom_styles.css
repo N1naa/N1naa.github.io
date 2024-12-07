@@ -14,11 +14,11 @@ body::before {
   }
 
   .home-container {
-    margin: 20px auto; /* Adjust as needed */
+    margin: 2000px auto; /* Adjust as needed */
     padding: 10px; /* Optional: Adjust spacing */
   }
   
   .container-md {
-    max-width: 1300px; /* Add margin for all .container-md elements */
+    max-width: 2000px; /* Add margin for all .container-md elements */
     padding: 20px; /* Optional */
   }
