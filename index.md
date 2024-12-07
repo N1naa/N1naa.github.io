@@ -5,6 +5,7 @@ subtitle: "A Data Story of Connected Nodes <33"
 ---
 
 <div class="main-content">
+
     <div class="video-container">
         <video autoplay muted loop playsinline class="centered-video">
             <source src="{{ '/assets/videos/3130284-uhd_3840_2160_30fps.mp4' | relative_url }}" type="video/mp4">
@@ -39,7 +40,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     <h5>Graphical Statistical Analysis</h5>
     <h></h>
 
-    <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}", style="margin-bottom: 40px;>
+    <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}">
     
     <h1>Data's feature Engineering</h1>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
@@ -60,15 +61,15 @@ subtitle: "A Data Story of Connected Nodes <33"
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
-    <img src="{{ '/assets/img/distributionCosine.png' | relative_url }}",style="margin-bottom: 40px;>
+    <img src="{{ '/assets/img/distributionCosine.png' | relative_url }}">
     <br>
     <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
     <br>
-    <img src="{{ '/assets/img/boxPlotCosine.png' | relative_url }}",style="margin-bottom: 40px;>
+    <img src="{{ '/assets/img/boxPlotCosine.png' | relative_url }}">
     <br>
     <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
     <br>
-    <img src="{{ '/assets/img/connectionProba.png' | relative_url }}",style="margin-bottom: 40px;>
+    <img src="{{ '/assets/img/connectionProba.png' | relative_url }}">
     <br>
 
     <h5>Edge Features</h5>
@@ -76,21 +77,23 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     Discussion: The preferential attachment scores for the connected pairs can have very large values because we have a very connected and sparse graph. However, some nodes have a very high degree, resulting in large values (x_value range). In contrast, the preferential attachment scores for unconnected pairs are significantly smaller. This is due to the fact that these unconnected nodes, lacking a direct link, generally have less common neighbors, reducing the likelihood of a connection (under the preferential attachment mechanism). This difference highlights the impact of common neighbors on connection probability and underscores the structural differences between connected and unconnected pairs in the network.</h>
     <br>
-    <img src="{{ '/assets/img/PreferentialAttachment.png' | relative_url }}",style="margin-bottom: 40px;>
+    <img src="{{ '/assets/img/PreferentialAttachment.png' | relative_url }}">
     <br>
 
     <h>Jaccard similarity: The Jaccard's coefficient is a commonly used similarity metric in information retrieval. It measures the probability that both x and y have a feature f, knowing that x or y has the feature f (which is randomly selected). In our case, the features are the neighbors. It is defined as the size of the intersection divided by the size of the union of the sets.
 
     Discussion: Below we compare the Jaccard's coefficients for both connected and unconnected node pairs. As expected, the Jaccard coefficient values are higher for connected node pairs, as the likelihood of sharing a neighbor increases when nodes are directly connected.</h>
     <br>
-    <img src="{{ '/assets/img/Jaccard.png' | relative_url }}",style="margin-bottom: 40px;>
+    <p>&nbsp;</p>
+    <img src="{{ '/assets/img/Jaccard.png' | relative_url }}">
+    <p>&nbsp;</p>
     <br>
 
     <h>Adamic adar index: To determine how closely two personal home pages are linked, Adamic and Adar examine their common features. Unlike a simple count of these shared features, this index weighs the contribution of each distinctive or less frequent feature by the inverse logarithm of its degree, assigning more weight to rarer features to measure the similarity between entities.
 
     Discussion: We observed the differences between connected and unconnected pairs of nodes. As expected, the values for connected pairs of nodes are larger than those for unconnected pairs of nodes because there is a greater likelihood of shared connections or features when nodes are directly linked.</h>
     <br>
-    <img src="{{ '/assets/img/adamadar.png' | relative_url }}",style="margin-bottom: 40px;>
+    <img src="{{ '/assets/img/adamadar.png' | relative_url }}">
     <br>
 
     <h5>Graph Features</h5>
@@ -107,6 +110,7 @@ subtitle: "A Data Story of Connected Nodes <33"
             Your browser does not support the video tag.
         </video>
     </div>
+
 </div>
 
 <style>
