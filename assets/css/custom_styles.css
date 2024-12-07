@@ -12,14 +12,18 @@ body::before {
     z-index: -1;
     pointer-events: none; /* Ensure the background doesn’t block interactions */
   }
-/*
+
   .home-container {
-    margin: 2000px auto; /* Adjust as needed *//*
-    padding: 10px; /* Optional: Adjust spacing *//*
+    width: 100%;           /* Takes up 80% of the container width */
+    max-width: 1200px;    /* Maximum width */
+    margin: 0 20px;       /* Small horizontal margins */
+    padding: 0 15px;  
   }
   
   .container-md {
-    max-width: 2000px; /* Add margin for all .container-md elements *//*
-    padding: 20px; /* Optional *//*
+    width: 100%;           /* Takes up 80% of the container width */
+    max-width: 1200px;    /* Maximum width */
+    margin: 0 20px;       /* Small horizontal margins */
+    padding: 0 15px;  
   }
   */
