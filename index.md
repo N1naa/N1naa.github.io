@@ -1,5 +1,5 @@
 ---
 layout: home
 title: "Collectif Metisser"
-subtitle: "A Data Story of Connected Nodes <3"
+subtitle: "A Data Story of Connected Nodes <33"
 ---
