@@ -7,9 +7,9 @@ subtitle: "A Data Story of Connected Nodes <333"
 <div class="main-content">
 
     <div class="video-container">
-        <video autoplay muted loop playsinline>
-            <source src="{{ '/assets/videos/3130284-uhd_3840_2160_30fps.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
+        <video autoplay muted loop class="centered-video">
+        <source src="your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
         </video>
     </div>
 
@@ -23,3 +23,19 @@ subtitle: "A Data Story of Connected Nodes <333"
     <p>This is the static content I want to display in the middle of my page.</p>
 </div>
 
+<style>
+  /* Center the video container */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;  /* Add space between video and content */
+  }
+
+  /* Limit the video's size */
+  .centered-video {
+    width: 80%;      /* Set to 80% of the container's width (or adjust as needed) */
+    max-width: 1200px; /* Set a maximum width so it doesn't get too big */
+    height: auto;    /* Maintain the aspect ratio */
+  }
+</style>
