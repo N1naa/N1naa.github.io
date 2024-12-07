@@ -44,7 +44,7 @@ subtitle: "A Data Story of Connected Nodes <33"
     
     <h1>Data's feature Engineering</h1>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
-
+    <br>
     <h5>Node Features</h5>
     <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
 
@@ -71,6 +71,32 @@ subtitle: "A Data Story of Connected Nodes <33"
     <br>
     <img src="{{ '/assets/img/connectionProba.png' | relative_url }}">
     <br>
+
+    <h5>Edge Features</h5>
+    <h>Preferential Attachment: Preferential attachment is the principle that a node with more connections is more likely to acquire additional links. This approach assumes that the likelihood of a new connection involving a node x is directly proportional to the number of its existing neighbors. Additionally, the likelihood of two nodes, x and y, forming a co-authorship connection is related to the product of their respective collaborator counts.
+
+    Discussion: The preferential attachment scores for the connected pairs can have very large values because we have a very connected and sparse graph. However, some nodes have a very high degree, resulting in large values (x_value range). In contrast, the preferential attachment scores for unconnected pairs are significantly smaller. This is due to the fact that these unconnected nodes, lacking a direct link, generally have less common neighbors, reducing the likelihood of a connection (under the preferential attachment mechanism). This difference highlights the impact of common neighbors on connection probability and underscores the structural differences between connected and unconnected pairs in the network.</h>
+    <br>
+    <img src="{{ '/assets/img/PreferentialAttachment.png' | relative_url }}">
+    <br>
+
+    <h>Jaccard similarity: The Jaccard's coefficient is a commonly used similarity metric in information retrieval. It measures the probability that both x and y have a feature f, knowing that x or y has the feature f (which is randomly selected). In our case, the features are the neighbors. It is defined as the size of the intersection divided by the size of the union of the sets.
+
+    Discussion: Below we compare the Jaccard's coefficients for both connected and unconnected node pairs. As expected, the Jaccard coefficient values are higher for connected node pairs, as the likelihood of sharing a neighbor increases when nodes are directly connected.</h>
+    <br>
+    <img src="{{ '/assets/img/Jaccard.png' | relative_url }}">
+    <br>
+
+    <h>Adamic adar index: To determine how closely two personal home pages are linked, Adamic and Adar examine their common features. Unlike a simple count of these shared features, this index weighs the contribution of each distinctive or less frequent feature by the inverse logarithm of its degree, assigning more weight to rarer features to measure the similarity between entities.
+
+    Discussion: We observed the differences between connected and unconnected pairs of nodes. As expected, the values for connected pairs of nodes are larger than those for unconnected pairs of nodes because there is a greater likelihood of shared connections or features when nodes are directly linked.</h>
+    <br>
+    <img src="{{ '/assets/img/adamadar.png' | relative_url }}">
+    <br>
+
+
+
+
     <h1>Data's Finale</h1>
     <p>Talk about what happend to our data after connections</p>
 
