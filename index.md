@@ -15,10 +15,18 @@ subtitle: "A Data Story of Connected Nodes <33"
 
     <h1>Some music to accompany you through your experience ... What's your mood? </h1>
 
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3sP0pCSFv02t822yGiR5O5?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div style="display: flex; gap: 10px; justify-content: center;">
+        <iframe style="border-radius:12px; flex: 1;" 
+                src="https://open.spotify.com/embed/track/3sP0pCSFv02t822yGiR5O5?utm_source=generator&theme=0" 
+                width="100%" height="352" frameBorder="0" allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2FnMQEvfbdSI0AI9mKM5by?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    
+        <iframe style="border-radius:12px; flex: 1;" 
+                src="https://open.spotify.com/embed/track/2FnMQEvfbdSI0AI9mKM5by?utm_source=generator&theme=0" 
+                width="100%" height="352" frameBorder="0" allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
     <audio controls>
         <source src="{{ '/assets/audio/your-audio.mp3' | relative_url }}" type="audio/mpeg">
         Your browser does not support the audio element.
