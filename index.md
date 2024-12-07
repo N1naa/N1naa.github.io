@@ -22,17 +22,18 @@ subtitle: "A Data Story of Connected Nodes <33"
     <p>This music is courtesy of our friend, and music writer/producer DINA.</p>
 
     <h1>Data's Origin Story</h1>
-    <p>Talk about where our data comes from, how it is collected etc.</p>
+    <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
 
     <h3>Graphical Statistical Analysis</h3>
     <h>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps. Here is a distribution of common neighbors:</h>
 
+    <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}">
 
 
     <h3>Feature Engineering</h3>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation.</h>
 
-    <img src="{{ '/assets/img/distr_common_neighbors.png' | relative_url }}" alt="Image Description">
+    <img src="{{ '/assets/img/distr_common_neighbors.png' | relative_url }}">
 
     <h1>Data's Analysis</h1>
     <p>Talk about our model and metrics</p>
