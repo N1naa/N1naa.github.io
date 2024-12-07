@@ -75,6 +75,11 @@ h4 {
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
+img {
+  margin-top: 20px; /* Space above the image */
+  margin-bottom: 20px; /* Space below the image */
+}
+
 a {
   color: var(--link-col);
 }

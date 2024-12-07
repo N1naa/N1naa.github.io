@@ -94,7 +94,9 @@ subtitle: "A Data Story of Connected Nodes <33"
     <img src="{{ '/assets/img/adamadar.png' | relative_url }}">
     <br>
 
-
+    <h5>Graph Features</h5>
+    <br>
+    <h>Node2Vec: Node2Vec is an algorithm designed to create vector representations (embeddings) of nodes in a network by simulating biased random walks. This allows for capturing both local neighborhood structures and global network relationships. Node2Vec strikes a balance between breadth-first (BFS) and depth-first (DFS) strategies, enabling the embeddings to capture both homophilic (similar nodes connected) and structural equivalences (nodes playing similar roles in different parts of the graph).
 
 
     <h1>Data's Finale</h1>
