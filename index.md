@@ -14,13 +14,13 @@ subtitle: "A Data Story of Connected Nodes <333"
     </div>
 
     <h1>Data's Origin Story</h1>
-    <p>This is the static content I want to display in the middle of my page.</p>
+    <p>Talk about where our data comes from, how it is collected etc.</p>
 
     <h1>Data's Analysis</h1>
-    <p>This is the static content I want to display in the middle of my page.</p>
+    <p>Talk about our model and metrics</p>
 
     <h1>Data's Finale</h1>
-    <p>This is the static content I want to display in the middle of my page.</p>
+    <p>Talk about what happend to our data after connections</p>
 </div>
 
 <style>
