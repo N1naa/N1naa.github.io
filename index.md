@@ -32,24 +32,36 @@ subtitle: "A Data Story of Connected Nodes <33"
         Your browser does not support the audio element.
     </audio>
 
-    <p>This music is courtesy of our friend, and music writer/producer DINA.</p>
+    <p>This music is courtesy of our friend, and music writer/producer GRISP.</p>
 
     <h1>Data's Origin Story</h1>
     <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
 
-    <h3>Graphical Statistical Analysis</h3>
+    <h5>Graphical Statistical Analysis</h5>
     <h></h>
 
     <img src="{{ '/assets/img/degree_distribution.png' | relative_url }}">
 
+    <h1>Data's feature Engineering</h1>
+    <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
 
-    <h3>Feature Engineering</h3>
-    <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation.</h>
+    <h5>Node Features</h5>
+    <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
+
+    <img src="{{ '/assets/img/PageRank.png' | relative_url }}">
+
+    <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
+
+    <img src="{{ '/assets/img/EigenVectorCentrality.png' | relative_url }}">
+
+    <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
 
     <img src="{{ '/assets/img/distr_common_neighbors.png' | relative_url }}">
 
-    <h1>Data's Analysis</h1>
-    <p>Talk about our model and metrics</p>
+    <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
+
+    <img src="{{ '/assets/img/distributionCosine.png' | relative_url }}">
+
 
     <h1>Data's Finale</h1>
     <p>Talk about what happend to our data after connections</p>
