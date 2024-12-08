@@ -416,15 +416,16 @@ img {
 /* --- Footer --- */
 
 footer {
+  --footer-col = #000000
   padding: 1.875rem 0;
   border-top: 1px var(--footer-col) solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: var(--footer-col);
-  {% if site.footer-img %}
+  /*{% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
-  {% endif %}
+  {% endif %}*/
 }
 
 footer p.text-muted {
