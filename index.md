@@ -4,84 +4,87 @@ title: "Collectif Metisser"
 subtitle: "A Data Story of Connected Nodes <3"
 ---
 
-<div class="main-content">
+<div class="scroll_container">
+    <section class="scroll-section">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="centered-video">
+                <source src="{{ '/assets/videos/3130284-uhd_3840_2160_30fps.mp4' | relative_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
-    <div class="video-container">
-        <video autoplay muted loop playsinline class="centered-video">
-            <source src="{{ '/assets/videos/3130284-uhd_3840_2160_30fps.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+        <h1>Some music to accompany you through your experience ... What's your mood? </h1>
 
-    <h1>Some music to accompany you through your experience ... What's your mood? </h1>
+        <div style="display: flex; gap: 10px; justify-content: center;">
+            <iframe style="border-radius:12px; flex: 1;" 
+                    src="https://open.spotify.com/embed/track/3sP0pCSFv02t822yGiR5O5?utm_source=generator&theme=0" 
+                    width="100%" height="352" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-    <div style="display: flex; gap: 10px; justify-content: center;">
-        <iframe style="border-radius:12px; flex: 1;" 
-                src="https://open.spotify.com/embed/track/3sP0pCSFv02t822yGiR5O5?utm_source=generator&theme=0" 
-                width="100%" height="352" frameBorder="0" allowfullscreen="" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px; flex: 1;" 
+                    src="https://open.spotify.com/embed/track/2FnMQEvfbdSI0AI9mKM5by?utm_source=generator&theme=0" 
+                    width="100%" height="352" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
 
-        <iframe style="border-radius:12px; flex: 1;" 
-                src="https://open.spotify.com/embed/track/2FnMQEvfbdSI0AI9mKM5by?utm_source=generator&theme=0" 
-                width="100%" height="352" frameBorder="0" allowfullscreen="" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
+        <audio controls>
+            <source src="{{ '/assets/audio/your-audio.mp3' | relative_url }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
 
-    <audio controls>
-        <source src="{{ '/assets/audio/your-audio.mp3' | relative_url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+        <p>This music is courtesy of our friend, and music writer/producer GRISP.</p>
+    </section>
 
-    <p>This music is courtesy of our friend, and music writer/producer GRISP.</p>
 
-    <h1>Data's Origin Story</h1>
-    <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
+    <section class="scroll-section">
+        <h1>Data's Origin Story</h1>
+        <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
 
-    <h5>Graphical Statistical Analysis</h5>
-    <br>
-    <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
-    <br>
-    <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
-    <br>
+        <h5>Graphical Statistical Analysis</h5>
+        <br>
+        <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
+        <br>
+        <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
+        <br>
 
-    <p>&nbsp;</p>
-    <h5>Node Features</h5>
-    <p>&nbsp;</p>
-    <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
+        <p>&nbsp;</p>
+        <h5>Node Features</h5>
+        <p>&nbsp;</p>
+        <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
 
-    <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
-        <img src="{{ '/assets/img/PageRank_dark.png' | relative_url }}" alt="PageRank Algorithm" style="max-width: 45%; height: auto; flex-shrink: 1;">
-        <img src="{{ '/assets/img/Eigenvector_dark.png' | relative_url }}" alt="Eigenvector Centrality" style="max-width: 45%; height: auto; flex-shrink: 1;">
-    </div>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
+            <img src="{{ '/assets/img/PageRank_dark.png' | relative_url }}" alt="PageRank Algorithm" style="max-width: 45%; height: auto; flex-shrink: 1;">
+            <img src="{{ '/assets/img/Eigenvector_dark.png' | relative_url }}" alt="Eigenvector Centrality" style="max-width: 45%; height: auto; flex-shrink: 1;">
+        </div>
 
-    <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
+        <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
 
-    <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
-    <p>&nbsp;</p>
-    <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
-    <p>&nbsp;</p>
-    <br>
-    <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
-    <br>
-    <p>&nbsp;</p>
-    <img src="{{ '/assets/img/cosine_similarity_dark.png' | relative_url }}">
-    <p>&nbsp;</p>
-    <br>
-    <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
-    <br>
-    <p>&nbsp;</p>
-    <img src="{{ '/assets/img/cosine_bars_dark.png' | relative_url }}">
-    <p>&nbsp;</p>
-    <br>
-    <p>&nbsp;</p>
-    <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
-    <p>&nbsp;</p>
-    <br>
-    <p>&nbsp;</p>
-    <img src="{{ '/assets/img/probas_dark.png' | relative_url }}" width="600">
-    <p>&nbsp;</p>
-    <br>
-
+        <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
+        <p>&nbsp;</p>
+        <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
+        <p>&nbsp;</p>
+        <br>
+        <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
+        <br>
+        <p>&nbsp;</p>
+        <img src="{{ '/assets/img/cosine_similarity_dark.png' | relative_url }}">
+        <p>&nbsp;</p>
+        <br>
+        <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
+        <br>
+        <p>&nbsp;</p>
+        <img src="{{ '/assets/img/cosine_bars_dark.png' | relative_url }}">
+        <p>&nbsp;</p>
+        <br>
+        <p>&nbsp;</p>
+        <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
+        <p>&nbsp;</p>
+        <br>
+        <p>&nbsp;</p>
+        <img src="{{ '/assets/img/probas_dark.png' | relative_url }}" width="600">
+        <p>&nbsp;</p>
+        <br>
+    </section>
     <h1>Data's Feature Engineering</h1>
     <h>Now we can finally explore the feature characteristics...</h>
 

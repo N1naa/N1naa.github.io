@@ -6,6 +6,7 @@ class: home-container
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
+<link rel="stylesheet" href="{{ '/assets/css/custom_styles.css' | relative_url }}">
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <!--
