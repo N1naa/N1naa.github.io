@@ -129,7 +129,7 @@ subtitle: "A Data Story of Connected Nodes <3"
     <p>Talk about what happend to our data after connections</p>
 
     <p>&nbsp;</p>
-    <h1>Thank you for discovering our story :) </h1>
+    <h1>Thank you for discovering my story :) </h1>
     <p>&nbsp;</p>
     <div class="video-container">
         <video autoplay muted loop playsinline class="centered-video">
