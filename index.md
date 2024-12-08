@@ -138,7 +138,6 @@ subtitle: "A Data Story of Connected Nodes <3"
             Your browser does not support the video tag.
         </video>
     </div>
-
 </div>
 
 <style>
