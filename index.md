@@ -35,7 +35,7 @@ subtitle: "A Data Story of Connected Nodes <3"
     <br> -->
     <br>
      <iframe 
-    src="{{ '/assets/data/degree_distribution.html' | relative_url }}"
+    src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
     style="width: 100%; height: 600px; border: none;">
     </iframe>
     <br>
