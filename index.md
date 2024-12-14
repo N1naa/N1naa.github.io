@@ -10,7 +10,7 @@ layout: home
     </video>
 </div>
 <p>Some music to accompany you through your experience? </p>
-<p>This music is courtesy of our friend, and music writer/producer DINA. Produced by Casper at Sounds of Africa Label</p>
+<p>This music is courtesy of our friend, and music writer/producer DINA. Produced by Casper at Sounds of Africa Label.</p>
 <audio controls>
     <source src="{{ '/assets/audio/RUNNIN-MASTER-CD.mp3' | relative_url }}" type="audio/mpeg">
     Your browser does not support the audio element.
