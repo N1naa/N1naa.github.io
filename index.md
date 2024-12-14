@@ -1,28 +1,47 @@
 ---
 layout: home
-title: "Collectif Metisser"
-subtitle: "A Data Story of Connected Nodes <3"
----
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planet Wikipedia in the Knowledge Cosmos</title>
-    <link rel="stylesheet" href="custom_styles.css"> <!-- Your custom stylesheet -->
-</head>
-<h1>Some music to accompany you through your experience? </h1>
-    <audio controls>
-        <source src="{{ '/assets/audio/RUNNIN MASTER CD.wav' | relative_url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
 
-<h1>Welcome to the Knowledge Cosmos, Home of the Extraordinary Planet Wikipedia</h1>
+
+---
+<!-- title: "Collectif Metisser" -->
+<!-- subtitle: "A Data Story of Connected Nodes <3" -->
+
+<p>Some music to accompany you through your experience? </p>
+<p>This music is courtesy of our friend, and music writer/producer DINA. Produced by Casper at Sounds of Africa Label</p>
+<audio controls>
+    <source src="{{ '/assets/audio/RUNNIN-MASTER-CD.mp3' | relative_url }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<div class="video-container">
+    <video autoplay muted loop playsinline class="centered-video">
+        <source src="{{ '/assets/videos/universe-2.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>Welcome to the Knowledge Cosmos, where <span style="font-weight: bold;">PLANET WIKIPEDIA</span> exists.</h1>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <div class="main-content">
-    <div class="video-container">
-        <video autoplay muted loop playsinline class="centered-video">
-            <source src="{{ '/assets/videos/universe.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+    
 
 
 
@@ -40,8 +59,10 @@ subtitle: "A Data Story of Connected Nodes <3"
     
 
     <p>This music is courtesy of our friend, and music writer/producer GRISP.</p>
+
     <h1>Data's Origin Story</h1>
     <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
+
     <h5>Graphical Statistical Analysis</h5>
     <!-- <br>
     <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
