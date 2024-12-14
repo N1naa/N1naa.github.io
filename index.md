@@ -3,16 +3,29 @@ layout: home
 title: "Collectif Metisser"
 subtitle: "A Data Story of Connected Nodes <3"
 ---
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Wikipedia in the Knowledge Cosmos</title>
+    <link rel="stylesheet" href="custom_styles.css"> <!-- Your custom stylesheet -->
+</head>
+<h1>Some music to accompany you through your experience? </h1>
+    <audio controls>
+        <source src="{{ '/assets/audio/RUNNIN MASTER CD.wav' | relative_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 
+<h1>Welcome to the Knowledge Cosmos, Home of the Extraordinary Planet Wikipedia</h1>
 <div class="main-content">
     <div class="video-container">
         <video autoplay muted loop playsinline class="centered-video">
-            <source src="{{ '/assets/videos/3130284-uhd_3840_2160_30fps.mp4' | relative_url }}" type="video/mp4">
+            <source src="{{ '/assets/videos/universe.mp4' | relative_url }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
-    <h1>Some music to accompany you through your experience ... What's your mood? </h1>
-    <div style="display: flex; gap: 10px; justify-content: center;">
+
+
+
         <iframe style="border-radius:12px; flex: 1;" 
                 src="https://open.spotify.com/embed/track/3sP0pCSFv02t822yGiR5O5?utm_source=generator&theme=0" 
                 width="100%" height="352" frameBorder="0" allowfullscreen="" 
@@ -21,11 +34,11 @@ subtitle: "A Data Story of Connected Nodes <3"
                 src="https://open.spotify.com/embed/track/2FnMQEvfbdSI0AI9mKM5by?utm_source=generator&theme=0" 
                 width="100%" height="352" frameBorder="0" allowfullscreen="" 
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-    <audio controls>
-        <source src="{{ '/assets/audio/your-audio.mp3' | relative_url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+
+    </div> -->
+
+    
+
     <p>This music is courtesy of our friend, and music writer/producer GRISP.</p>
     <h1>Data's Origin Story</h1>
     <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
