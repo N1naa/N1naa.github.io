@@ -41,27 +41,34 @@ layout: home
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class="main-content">
+    <p>Planet Wikipedia is a huge and constantly expanding world where towns and cities represent articles. The roads connecting these towns allow citizen lifeforms to travel between ideas. For centuries, these roads were built manually by a group of people called the First Pathfinders, but their work, although amazing, was imperfect. Some important towns are difficult to reach, being connected only with winding paths, while other towns, despite their great history or usefulness, sit isolated.</p>
     
+    <p>The President of Wikipedia Planet feels that the inefficient road network has left many of its citizens frustrated, wandering aimlessly or missing critical destinations. The president forms a team of visionaries known as the Architects of Connection, tasked with uncovering hidden connections and reshaping the planet's roads.</p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 
 
-
-        <iframe style="border-radius:12px; flex: 1;" 
-                src="https://open.spotify.com/embed/track/3sP0pCSFv02t822yGiR5O5?utm_source=generator&theme=0" 
-                width="100%" height="352" frameBorder="0" allowfullscreen="" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        <iframe style="border-radius:12px; flex: 1;" 
-                src="https://open.spotify.com/embed/track/2FnMQEvfbdSI0AI9mKM5by?utm_source=generator&theme=0" 
-                width="100%" height="352" frameBorder="0" allowfullscreen="" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-    </div> -->
-
-    
-
-    <p>This music is courtesy of our friend, and music writer/producer GRISP.</p>
-
-    <h1>Data's Origin Story</h1>
-    <p>To gain a better understanding of the data, some basics but important characteristics of the graph are computed/displayed. This will help guide us in selecting the most appropriate approach for the next steps.</p>
+    <h1> Chapter 1 | The Study: Getting to know Wikipedia. </h1>
+    <p>The Architects start by studying their planet, to gain a better understanding, helping guide them to select an appropriate approach for their plan.</p>
 
     <h5>Graphical Statistical Analysis</h5>
     <!-- <br>
