@@ -1,23 +1,20 @@
 ---
 layout: home
-
-
 ---
 <!-- title: "Collectif Metisser" -->
 <!-- subtitle: "A Data Story of Connected Nodes <3" -->
-
-<p>Some music to accompany you through your experience? </p>
-<p>This music is courtesy of our friend, and music writer/producer DINA. Produced by Casper at Sounds of Africa Label</p>
-<audio controls>
-    <source src="{{ '/assets/audio/RUNNIN-MASTER-CD.mp3' | relative_url }}" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
 <div class="video-container">
     <video autoplay muted loop playsinline class="centered-video">
         <source src="{{ '/assets/videos/universe-2.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
+<p>Some music to accompany you through your experience? </p>
+<p>This music is courtesy of our friend, and music writer/producer DINA. Produced by Casper at Sounds of Africa Label</p>
+<audio controls>
+    <source src="{{ '/assets/audio/RUNNIN-MASTER-CD.mp3' | relative_url }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
