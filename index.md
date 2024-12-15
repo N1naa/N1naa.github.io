@@ -66,6 +66,13 @@ layout: home
 
     <h1> Chapter 1 | The Study: Getting to know Wikipedia. </h1>
     <p>The Architects start by studying their planet, to gain a better understanding, helping guide them to select an appropriate approach for their plan.</p>
+    <p>They start by creating a map of planet Wikipedia, seen below.</p>
+
+
+    <p>&nbsp;</p>
+    <img src="{{ '/assets/img/Network.png' | relative_url }}" width="50%">
+    <p>&nbsp;</p>
+
 
     <h5>Graphical Statistical Analysis</h5>
     <!-- <br>
