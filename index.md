@@ -100,7 +100,7 @@ layout: home
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
     <h>  G vrillé </h>
-    <div style="display: flex; justify-content: space-between; gap: 20px; width: 100%; max-width: 1200px; margin: auto;">
+    <div id="plotly-container" style="width: 100%; max-width: none; height: 600px;">
         <!-- First Graph -->
         <div style="flex: 1; min-width: 55%; max-width: 1000px;">
             <iframe 
