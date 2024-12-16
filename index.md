@@ -96,30 +96,11 @@ layout: home
     </div>
     <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
     <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
-    <!-- <p>&nbsp;</p>
+    <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
-    <p>&nbsp;</p> -->
+    <p>&nbsp;</p>
     <h> happy </h>
-    <div id="plotly-container" style="display: flex; width: 100%; height: 100vh; padding: 0; margin: 0;">
-        <!-- First Graph -->
-        <div style="flex: 1; min-width: 50%; max-width: 50%; height: 100%; padding: 0; margin: 0;">
-            <iframe 
-                src="{{ '/assets/data/common_neighbors_connected.html' | relative_url }}"
-                style="width: 100%; height: 100%; border: none;">
-            </iframe>
-        </div>
 
-        <!-- Second Graph -->
-        <div style="flex: 1; min-width: 50%; max-width: 50%; height: 100%; padding: 0; margin: 0;">
-            <iframe 
-                src="{{ '/assets/data/common_neighbors_unconnected.html' | relative_url }}"
-                style="width: 100%; height: 100%; border: none;">
-            </iframe>
-        </div>
-    </div>
-
-
- 
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
