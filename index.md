@@ -75,9 +75,9 @@ layout: home
 
 
     <h5>Graphical Statistical Analysis</h5>
-    <br>
+    <!-- <br>
     <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
-    <br>
+    <br> -->
     <br>
     </div>
     <iframe 
