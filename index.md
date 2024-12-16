@@ -102,10 +102,13 @@ layout: home
     <h> happy </h>
 </div>
 
-<div class="plotly">
-  <iframe 
-    src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}">
-  </iframe>
+<div align="center">
+<iframe
+  src="/assets/data/common_neighbors_distribution.html"
+  width = 800
+  height = 550
+  style="border:none;"
+></iframe>
 </div>
 
 <div class="main-content">
