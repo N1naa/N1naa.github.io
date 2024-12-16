@@ -99,13 +99,13 @@ layout: home
     <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p>
-    <h> happy </h>
+    <h> really not happy </h>
 </div>
 
 <div align="center">
 <iframe
   src="/assets/data/common_neighbors_distribution.html"
-  width = 800
+  width = 1000
   height = 550
   style="border:none;"
 ></iframe>
