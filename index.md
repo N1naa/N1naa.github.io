@@ -79,7 +79,7 @@ layout: home
     <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
     <br> -->
     <br>
-     <iframe 
+    <iframe 
     src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
     style="width: 100%; height: 600px; border: none;">
     </iframe>
@@ -100,6 +100,12 @@ layout: home
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p>
     <h> happy </h>
+</div>
+
+<div class="plotly">
+  <iframe 
+    src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}">
+  </iframe>
 </div>
 
 <div class="main-content">
@@ -194,5 +200,13 @@ layout: home
     margin: 0 auto;    /* Center content */
     max-width: 1200px;  /* You can adjust this width to make the content wider */
     padding: 20px;      /* Add some padding for spacing around the content */
+  }
+  /* Ensure iframe takes full width of the container */
+  .plotly {
+    width: 100%;        /* Full width */
+    height: 80vh;       /* Set height to 80% of the viewport height, adjust as needed */
+    border: none;       /* Remove iframe border */
+    display: block;     /* Ensure no unwanted spacing around the iframe */
+    margin: 0 auto;     /* Center horizontally */
   }
 </style>
