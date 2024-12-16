@@ -99,10 +99,10 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> Tested </h>
+    <h> PT un Cable </h>
     <iframe 
         src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
-        style="width: 100%; height: calc(100vw * 0.5); border: none;">
+        style="width: 80%; height: calc(80% * 0.375); border: none;">
     </iframe>
 
 
