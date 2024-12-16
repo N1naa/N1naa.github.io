@@ -99,10 +99,10 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> j'ai vrillé completement </h>
+    <h> j'ai vrillé fort </h>
     <div style="display: flex; justify-content: space-between; gap: 20px; width: 100%; max-width: 1200px; margin: auto;">
         <!-- First Graph -->
-        <div style="flex: 1; min-width: 60%; max-width: 850px;">
+        <div style="flex: 1; min-width: 50%; max-width: 800px;">
             <iframe 
                 src="{{ '/assets/data/common_neighbors_connected.html' | relative_url }}"
                 style="width: 100%; height: 600px; border: none;">
@@ -110,7 +110,7 @@ layout: home
         </div>
 
         <!-- Second Graph -->
-        <div style="flex: 1; min-width: 60%; max-width: 850px;">
+        <div style="flex: 1; min-width: 50%; max-width: 800px;">
             <iframe 
                 src="{{ '/assets/data/common_neighbors_unconnected.html' | relative_url }}"
                 style="width: 100%; height: 600px; border: none;">
