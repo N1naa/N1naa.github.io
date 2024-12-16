@@ -79,6 +79,7 @@ layout: home
     <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
     <br> -->
     <br>
+
     </div>
     <iframe 
     src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
@@ -100,15 +101,26 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> pt un cable </h>
-    <div align="center">
-        <iframe
-            src="/assets/data/common_neighbors_distribution.html"
-            width = 800
-            height = 550
-            style="border:none;"
-        ></iframe>
+    <h> not happy </h>
+    <div id="plotly-container" style="display: flex; width: 100%; height: 100vh; padding: 0; margin: 0; box-sizing: border-box;">
+        <!-- First Graph -->
+        <div style="flex-grow: 1; min-width: 50%; height: 100%; padding: 0; margin: 0;">
+            <iframe 
+                src="{{ '/assets/data/common_neighbors_connected.html' | relative_url }}"
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
+        </div>
+
+        <!-- Second Graph -->
+        <div style="flex-grow: 1; min-width: 50%; height: 100%; padding: 0; margin: 0;">
+            <iframe 
+                src="{{ '/assets/data/common_neighbors_unconnected.html' | relative_url }}"
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
+        </div>
     </div>
+
+
 
  
     <br>
