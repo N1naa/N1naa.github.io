@@ -99,7 +99,7 @@ layout: home
     <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p>
-    <h> Je vais vriller fort la </h>
+    <h> Je vais pt un plomb </h>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
