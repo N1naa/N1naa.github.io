@@ -101,7 +101,7 @@ layout: home
     <p>&nbsp;</p> -->
     <iframe 
     src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
-    style="width: 100%; height: 600px; border: none;">
+    style="width: 100%; height: 800px; border: none;">
     </iframe>
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
