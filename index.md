@@ -96,9 +96,13 @@ layout: home
     </div>
     <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
     <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
-    <p>&nbsp;</p>
+    <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
-    <p>&nbsp;</p>
+    <p>&nbsp;</p> -->
+    <iframe 
+    src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
+    style="width: 100%; height: 600px; border: none;">
+    </iframe>
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
