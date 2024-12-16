@@ -104,7 +104,7 @@ layout: home
 
 <div class="plotly">
   <iframe 
-    src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}">
+    src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}">
   </iframe>
 </div>
 
@@ -201,7 +201,7 @@ layout: home
     max-width: 1200px;  /* You can adjust this width to make the content wider */
     padding: 20px;      /* Add some padding for spacing around the content */
   }
-  
+
   /* Ensure iframe takes full width of the container */
   .plotly iframe {
     width: 100%;         /* Full width of the container */
