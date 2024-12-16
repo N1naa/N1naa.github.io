@@ -99,17 +99,18 @@ layout: home
     <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p>
-    <h> really not happy </h>
+    <h> Je vais vriller fort la </h>
 </div>
 
-<div align="center">
-<iframe
-  src="/assets/data/common_neighbors_distribution.html"
-  width = 1000
-  height = 550
-  style="border:none;"
-></iframe>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="/assets/data/common_neighbors_distribution.html"
+    width="1200"
+    height="550"
+    style="border: none;">
+  </iframe>
 </div>
+
 
 <div class="main-content">
     <br>
