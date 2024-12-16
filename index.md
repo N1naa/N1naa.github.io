@@ -204,7 +204,7 @@ layout: home
 
   .plotly iframe {
     width: 100%;   /* Keep full width */
-    height: 800px; /* Increase height for more space */
+    height: 200px; /* Increase height for more space */
     border: none;
     display: block;
     margin: 0 auto;
