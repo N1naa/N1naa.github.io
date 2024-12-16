@@ -79,18 +79,11 @@ layout: home
     <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
     <br> -->
     <br>
-    <div align="center">
-    <iframe
-    src="/assets/data/degree_distribution_dark.html"
-    width = 1000
-    height = 900
-    style="border:none;"
-    ></iframe>
-    <!-- </div>
+    </div>
     <iframe 
     src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
     style="width: 100%; height: 600px; border: none;">
-    </iframe> -->
+    </iframe>
     <br>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
     <br>
@@ -107,26 +100,15 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> not happy </h>
-    <div id="plotly-container" style="display: flex; width: 100%; height: 100vh; padding: 0; margin: 0; box-sizing: border-box;">
-        <!-- First Graph -->
-        <div style="flex-grow: 1; min-width: 50%; height: 100%; padding: 0; margin: 0;">
-            <iframe 
-                src="{{ '/assets/data/common_neighbors_connected.html' | relative_url }}"
-                style="width: 100%; height: 100%; border: none;">
-            </iframe>
-        </div>
-
-        <!-- Second Graph -->
-        <div style="flex-grow: 1; min-width: 50%; height: 100%; padding: 0; margin: 0;">
-            <iframe 
-                src="{{ '/assets/data/common_neighbors_unconnected.html' | relative_url }}"
-                style="width: 100%; height: 100%; border: none;">
-            </iframe>
-        </div>
+    <h> pt un cable </h>
+    <div align="center">
+        <iframe
+            src="/assets/data/common_neighbors_distribution.html"
+            width = 800
+            height = 550
+            style="border:none;"
+        ></iframe>
     </div>
-
-
 
  
     <br>
