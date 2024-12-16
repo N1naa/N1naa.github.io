@@ -99,11 +99,11 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> je vais vriller </h>
-    <div style="width: 100%; max-width: 1200px; margin: auto; height: auto;">
+    <h> je vais serrer </h>
+    <div style="width: 90%; max-width: 1200px; margin: auto; position: relative; height: 0; padding-bottom: 37.5%;">
         <iframe 
             src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
-            style="width: 100%; height: 600px; border: none;">
+            style="position: absolute; width: 100%; height: 100%; border: none;">
         </iframe>
     </div>
 
