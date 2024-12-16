@@ -99,27 +99,26 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h>  G vrillé </h>
-    <div id="plotly-container" style="width: 100%; max-width: none; height: 600px;">
+    <h> test </h>
+    <div id="plotly-container" style="display: flex; width: 100%; height: 100vh; padding: 0; margin: 0;">
         <!-- First Graph -->
-        <div style="flex: 1; min-width: 55%; max-width: 1000px;">
+        <div style="flex: 1; min-width: 55%; max-width: 100%; height: 100%; padding: 0; margin: 0;">
             <iframe 
                 src="{{ '/assets/data/common_neighbors_connected.html' | relative_url }}"
-                style="width: 100%; height: 600px; border: none;">
+                style="width: 100%; height: 100%; border: none;">
             </iframe>
         </div>
 
         <!-- Second Graph -->
-        <div style="flex: 1; min-width: 55%; max-width: 1000px;">
+        <div style="flex: 1; min-width: 55%; max-width: 100%; height: 100%; padding: 0; margin: 0;">
             <iframe 
                 src="{{ '/assets/data/common_neighbors_unconnected.html' | relative_url }}"
-                style="width: 100%; height: 600px; border: none;">
+                style="width: 100%; height: 100%; border: none;">
             </iframe>
         </div>
     </div>
+
  
-
-
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
