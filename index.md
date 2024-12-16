@@ -99,7 +99,7 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> j'ai vrillé </h>
+    <h> j'ai vrillé serieusement </h>
     <div style="display: flex; justify-content: space-between; gap: 20px; width: 100%; max-width: 1200px; margin: auto;">
         <!-- First Graph -->
         <div style="flex: 1; min-width: 50%; max-width: 700px;">
