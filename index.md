@@ -99,8 +99,8 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> mdr </h>
-    <div style="width: 100%; max-width: 1200px; position: relative; height: 0; padding-bottom: 37.5%; overflow: hidden;">
+    <h> ptn </h>
+    <div style="max-width: 1200px; margin: auto; position: relative; width: 100%; height: 0; padding-bottom: 37.5%; overflow: hidden;">
         <iframe 
             src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
             style="position: absolute; width: 100%; height: 100%; border: none;">
