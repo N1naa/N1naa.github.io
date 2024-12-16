@@ -202,10 +202,9 @@ layout: home
     padding: 20px;      /* Add some padding for spacing around the content */
   }
 
-  /* Ensure iframe takes full width of the container */
   .plotly iframe {
-    width: 100%;
-    height: 600px; /* Adjust this height based on your content */
+    width: 100%;   /* Keep full width */
+    height: 800px; /* Increase height for more space */
     border: none;
     display: block;
     margin: 0 auto;
