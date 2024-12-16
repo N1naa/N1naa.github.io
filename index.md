@@ -201,12 +201,13 @@ layout: home
     max-width: 1200px;  /* You can adjust this width to make the content wider */
     padding: 20px;      /* Add some padding for spacing around the content */
   }
+  
   /* Ensure iframe takes full width of the container */
-  .plotly {
-    width: 100%;        /* Full width */
-    height: 80vh;       /* Set height to 80% of the viewport height, adjust as needed */
-    border: none;       /* Remove iframe border */
-    display: block;     /* Ensure no unwanted spacing around the iframe */
-    margin: 0 auto;     /* Center horizontally */
+  .plotly iframe {
+    width: 100%;         /* Full width of the container */
+    height: 600px;       /* Adjust the height if you want a specific value */
+    border: none;        /* Remove any border around iframe */
+    display: block;      /* Ensures iframe behaves as a block element */
+    margin: 0 auto;      /* Centers the iframe horizontally */
   }
 </style>
