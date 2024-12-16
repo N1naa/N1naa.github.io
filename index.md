@@ -99,8 +99,8 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> je vais serrer </h>
-    <div style="width: 90%; max-width: 1200px; margin: auto; position: relative; height: 0; padding-bottom: 37.5%;">
+    <h> j'ai vrillé </h>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
         <iframe 
             src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
             style="position: absolute; width: 100%; height: 100%; border: none;">
