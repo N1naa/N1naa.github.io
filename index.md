@@ -99,10 +99,10 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> test </h>
+    <h> happy </h>
     <div id="plotly-container" style="display: flex; width: 100%; height: 100vh; padding: 0; margin: 0;">
         <!-- First Graph -->
-        <div style="flex: 1; min-width: 55%; max-width: 100%; height: 100%; padding: 0; margin: 0;">
+        <div style="flex: 1; min-width: 50%; max-width: 50%; height: 100%; padding: 0; margin: 0;">
             <iframe 
                 src="{{ '/assets/data/common_neighbors_connected.html' | relative_url }}"
                 style="width: 100%; height: 100%; border: none;">
@@ -110,13 +110,14 @@ layout: home
         </div>
 
         <!-- Second Graph -->
-        <div style="flex: 1; min-width: 55%; max-width: 100%; height: 100%; padding: 0; margin: 0;">
+        <div style="flex: 1; min-width: 50%; max-width: 50%; height: 100%; padding: 0; margin: 0;">
             <iframe 
                 src="{{ '/assets/data/common_neighbors_unconnected.html' | relative_url }}"
                 style="width: 100%; height: 100%; border: none;">
             </iframe>
         </div>
     </div>
+
 
  
     <br>
