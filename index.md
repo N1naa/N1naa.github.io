@@ -100,13 +100,23 @@ layout: home
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
     <h> j'ai vrillé </h>
-    <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
+    <div style="display: flex; justify-content: space-between; gap: 20px; width: 100%; max-width: 1200px; margin: auto;">
+    <!-- First Graph -->
+    <div style="flex: 1; min-width: 45%; max-width: 600px;">
         <iframe 
-            src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
-            style="position: absolute; width: 100%; height: 100%; border: none;">
+            src="{{ '/assets/data/common_neighbors_connected.html' | relative_url }}"
+            style="width: 100%; height: 600px; border: none;">
         </iframe>
     </div>
 
+    <!-- Second Graph -->
+    <div style="flex: 1; min-width: 45%; max-width: 600px;">
+        <iframe 
+            src="{{ '/assets/data/common_neighbors_unconnected.html' | relative_url }}"
+            style="width: 100%; height: 600px; border: none;">
+        </iframe>
+    </div>
+</div>
 
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
