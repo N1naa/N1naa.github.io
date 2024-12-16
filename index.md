@@ -79,10 +79,18 @@ layout: home
     <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
     <br> -->
     <br>
-     <iframe 
+    <div align="center">
+    <iframe
+    src="/assets/data/degree_distribution_dark.html"
+    width = 1000
+    height = 900
+    style="border:none;"
+    ></iframe>
+    <!-- </div>
+    <iframe 
     src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
     style="width: 100%; height: 600px; border: none;">
-    </iframe>
+    </iframe> -->
     <br>
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
     <br>
