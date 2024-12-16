@@ -99,11 +99,13 @@ layout: home
     <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p> -->
-    <h> PT un Cable </h>
-    <iframe 
-        src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
-        style="width: 80%; height: calc(80% * 0.375); border: none;">
-    </iframe>
+    <h> j'ai vrillé </h>
+    <div style="width: 90%; position: relative; padding-top: 37.5%; max-width: 1200px; height: auto;">
+        <iframe 
+            src="{{ '/assets/data/common_neighbors_distribution.html' | relative_url }}"
+            style="position: absolute; width: 100%; height: 100%; border: none;">
+        </iframe>
+    </div>
 
 
     <br>
