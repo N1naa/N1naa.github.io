@@ -204,10 +204,10 @@ layout: home
 
   /* Ensure iframe takes full width of the container */
   .plotly iframe {
-    width: 100%;         /* Full width of the container */
-    height: 600px;       /* Adjust the height if you want a specific value */
-    border: none;        /* Remove any border around iframe */
-    display: block;      /* Ensures iframe behaves as a block element */
-    margin: 0 auto;      /* Centers the iframe horizontally */
+    width: 100%;
+    height: 600px; /* Adjust this height based on your content */
+    border: none;
+    display: block;
+    margin: 0 auto;
   }
 </style>
