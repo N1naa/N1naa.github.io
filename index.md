@@ -123,8 +123,8 @@ layout: home
     <br> -->
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
-  <!-- First iframe -->
+<!-- <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+
   <iframe 
     src="/assets/data/node_similarity_1.html"
     width="400"
@@ -132,7 +132,6 @@ layout: home
     style="border: none; margin-right: 20px;">
   </iframe>
 
-  <!-- Second iframe (add another one with the same size) -->
   <iframe 
     src="/assets/data/node_similarity_2.html"
     width="400"
@@ -156,7 +155,44 @@ layout: home
     height="300"
     style="border: none;">
   </iframe>
+</div> -->
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
+  <!-- First iframe -->
+  <iframe 
+    src="/assets/data/node_similarity_1.html"
+    width="400"
+    height="300"
+    style="border: none; margin-right: 20px;">
+  </iframe>
+
+  <!-- Second iframe -->
+  <iframe 
+    src="/assets/data/node_similarity_2.html"
+    width="400"
+    height="300"
+    style="border: none;">
+  </iframe>
 </div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
+  <!-- Third iframe -->
+  <iframe 
+    src="/assets/data/node_similarity_3.html"
+    width="400"
+    height="300"
+    style="border: none; margin-right: 20px;">
+  </iframe>
+
+  <!-- Fourth iframe -->
+  <iframe 
+    src="/assets/data/node_similarity_4.html"
+    width="400"
+    height="300"
+    style="border: none;">
+  </iframe>
+</div>
+
 
 
 <div class="main content">
