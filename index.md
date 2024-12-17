@@ -74,16 +74,28 @@ layout: home
     <p>&nbsp;</p>
 
 
-    <h5>Graphical Statistical Analysis</h5>
+    <h5>Graphical Statistical Analysis en leger</h5>
     <!-- <br>
     <img src="{{ '/assets/img/degree_distr_dark.png' | relative_url }}">
     <br> -->
     <br>
-    <iframe 
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
+    width="1200"
+    height="550"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div class="main-content">
+    <!-- <iframe 
     src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
     style="width: 100%; height: 600px; border: none;">
     </iframe>
-    <br>
+    <br> -->
     <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
     <br>
     <p>&nbsp;</p>
@@ -99,7 +111,7 @@ layout: home
     <p>&nbsp;</p>
     <img src="{{ '/assets/img/common_dark.png' | relative_url }}">
     <p>&nbsp;</p>
-    <h> Je vais pt un plomb </h>
+    <h> Je vais pt un cable </h>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
