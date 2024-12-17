@@ -73,15 +73,15 @@ layout: home
     <img src="{{ '/assets/img/Network.png' | relative_url }}" width="50%">
     <p>&nbsp;</p>
 
-    <h5>Graphical Statistical Analysis test</h5>
+    <h5>Graphical Statistical Analysis ^^</h5>
     <br>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
-    width="800"
-    height="600"
+    width="400"
+    height="300"
     style="border: none;">
   </iframe>
 </div>
@@ -108,9 +108,9 @@ layout: home
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
-    src="/assets/data/common_neighbors_distribution.html"
-    width="1200"
-    height="550"
+    src="/assets/data/common_neighbors_distribution_dark.html"
+    width="400"
+    height="300"
     style="border: none;">
   </iframe>
 </div>
