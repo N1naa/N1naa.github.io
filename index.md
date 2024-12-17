@@ -123,14 +123,33 @@ layout: home
     <br> -->
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+<!-- <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="/assets/data/node_similarity_1.html"
     width="400"
     height="300"
     style="border: none;">
   </iframe>
+</div> -->
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <!-- First iframe -->
+  <iframe 
+    src="/assets/data/node_similarity_1.html"
+    width="400"
+    height="300"
+    style="border: none; margin-right: 20px;">
+  </iframe>
+
+  <!-- Second iframe (add another one with the same size) -->
+  <iframe 
+    src="/assets/data/node_similarity_2.html"
+    width="400"
+    height="300"
+    style="border: none;">
+  </iframe>
 </div>
+
 
 <div class="main content">
     <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
