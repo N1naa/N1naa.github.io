@@ -116,14 +116,9 @@ layout: home
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
-    <h> On va encore pt plomb Test </h>
-    <!-- <p>&nbsp;</p>
-    <img src="{{ '/assets/img/cosine_similarity_dark.png' | relative_url }}">
-    <p>&nbsp;</p>
-    <br> -->
 </div>
 
-<!-- <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
 
   <iframe 
     src="/assets/data/node_similarity_1.html"
@@ -140,7 +135,7 @@ layout: home
   </iframe>
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
 
   <iframe 
     src="/assets/data/node_similarity_3.html"
@@ -155,52 +150,27 @@ layout: home
     height="300"
     style="border: none;">
   </iframe>
-</div> -->
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
-  <!-- First iframe -->
-  <iframe 
-    src="/assets/data/node_similarity_1.html"
-    width="400"
-    height="300"
-    style="border: none; margin-right: 20px;">
-  </iframe>
-
-  <!-- Second iframe -->
-  <iframe 
-    src="/assets/data/node_similarity_2.html"
-    width="400"
-    height="300"
-    style="border: none;">
-  </iframe>
 </div>
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
-  <!-- Third iframe -->
-  <iframe 
-    src="/assets/data/node_similarity_3.html"
-    width="400"
-    height="300"
-    style="border: none; margin-right: 20px;">
-  </iframe>
-
-  <!-- Fourth iframe -->
-  <iframe 
-    src="/assets/data/node_similarity_4.html"
-    width="400"
-    height="300"
-    style="border: none;">
-  </iframe>
-</div>
-
 
 
 <div class="main content">
     <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
     <br>
-    <p>&nbsp;</p>
+    <!-- <p>&nbsp;</p>
     <img src="{{ '/assets/img/cosine_bars_dark.png' | relative_url }}">
-    <p>&nbsp;</p>
+    <p>&nbsp;</p> -->
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="/assets/data/cosine_similarity_titles_boxplot.html"
+    width="600"
+    height="450"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div class="main content">
     <br>
     <p>&nbsp;</p>
     <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
