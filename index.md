@@ -142,7 +142,7 @@ layout: home
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
-  <!-- First iframe -->
+
   <iframe 
     src="/assets/data/node_similarity_3.html"
     width="400"
@@ -150,7 +150,6 @@ layout: home
     style="border: none; margin-right: 20px;">
   </iframe>
 
-  <!-- Second iframe (add another one with the same size) -->
   <iframe 
     src="/assets/data/node_similarity_4.html"
     width="400"
