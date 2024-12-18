@@ -160,7 +160,7 @@ layout: home
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="/assets/data/conditional_probability_description_dark.html"
-    width="800"
+    width="1000"
     height="450"
     style="border: none;">
   </iframe>
