@@ -121,7 +121,7 @@ layout: home
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
-    src="/assets/data/title_similarity_distribution.html"
+    src="/assets/data/title_similarity_distribution2.html"
     style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
