@@ -116,60 +116,21 @@ layout: home
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
-    <h> test  </h>
+    <h> test con </h>
 </div>
 
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
     src="/assets/data/title_similarity_distribution.html"
-    width="800"
-    height="400"
-    style="border: none;">
+    style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
-
-
-<!-- <div style="display: flex; justify-content: center; align-items: center; width: 100%; overflow: hidden;">
-  <iframe 
-    src="/assets/data/title_similarity_distribution.html"
-    style="width: 100%; height: auto; border: none; aspect-ratio: 4 / 3;">
-  </iframe>
-</div>
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; overflow: hidden; margin-bottom: 20px;">
-  <iframe 
-    src="/assets/data/description_similarity_distribution.html"
-    style="width: 100%; height: auto; border: none; aspect-ratio: 4 / 3;">
-  </iframe>
-</div> -->
-
-
-<!-- <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
-  <iframe 
-    src="/assets/data/title_similarity_distribution.html"
-    width="800"
-    height="600"
-    style="border: none;">
-  </iframe>
-</div>
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
-  <iframe 
-    src="/assets/data/description_similarity_distribution.html"
-    width="800"
-    height="600"
-    style="border: none;">
-  </iframe>
-</div> -->
 
 
 <div class="main content">
     <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
     <br>
-    <!-- <p>&nbsp;</p>
-    <img src="{{ '/assets/img/cosine_bars_dark.png' | relative_url }}">
-    <p>&nbsp;</p> -->
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
