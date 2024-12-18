@@ -116,17 +116,16 @@ layout: home
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
-    <h> test 2</h>
+    <h> test 3</h>
 </div>
 
 
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <iframe 
     src="/assets/data/title_similarity_distribution.html"
-    style="width: 800px; height: 600px; border: none;">
+    style="width: 100%; height: auto; max-width: 1000px; border: none; aspect-ratio: 4 / 3;">
   </iframe>
 </div>
-
 
 <!-- <div style="display: flex; justify-content: center; align-items: center; width: 100%; overflow: hidden;">
   <iframe 
@@ -261,11 +260,4 @@ layout: home
     padding: 20px;      /* Add some padding for spacing around the content */
   }
 
-  /* .plotly iframe {
-    width: 100%;   
-    height: 200px; 
-    border: none;
-    display: block;
-    margin: 0 auto;
-  } */
 </style>
