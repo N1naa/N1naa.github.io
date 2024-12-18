@@ -128,7 +128,7 @@ layout: home
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
-    src="/assets/data/description_similarity_distribution.html"
+    src="/assets/data/description_similarity_distribution2.html"
     style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
@@ -154,12 +154,13 @@ layout: home
     <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
     <p>&nbsp;</p>
     <br>
+    <h> Test </h>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="/assets/data/conditional_probability_description_dark.html"
-    width="600"
+    width="800"
     height="450"
     style="border: none;">
   </iframe>
