@@ -118,7 +118,25 @@ layout: home
     <br>
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="/assets/data/title_similarity_distribution.html"
+    width="600"
+    height="450"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="/assets/data/description_similarity_distribution.html"
+    width="600"
+    height="450"
+    style="border: none;">
+  </iframe>
+</div>
+
+<!-- <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
 
   <iframe 
     src="/assets/data/node_similarity_1.html"
@@ -150,7 +168,7 @@ layout: home
     height="300"
     style="border: none;">
   </iframe>
-</div>
+</div> -->
 
 
 <div class="main content">
