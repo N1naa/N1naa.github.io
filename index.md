@@ -122,8 +122,8 @@ layout: home
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="/assets/data/title_similarity_distribution.html"
-    width="600"
-    height="450"
+    width="800"
+    height="600"
     style="border: none;">
   </iframe>
 </div>
@@ -131,8 +131,8 @@ layout: home
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="/assets/data/description_similarity_distribution.html"
-    width="600"
-    height="450"
+    width="800"
+    height="600"
     style="border: none;">
   </iframe>
 </div>
