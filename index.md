@@ -116,13 +116,20 @@ layout: home
     <br>
     <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
     <br>
-    <h> test con </h>
+    <h> test super con </h>
 </div>
 
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
     src="/assets/data/title_similarity_distribution.html"
+    style="border: none; width: 100%; height: 80vh; min-height: 400px;">
+  </iframe>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
+  <iframe 
+    src="/assets/data/description_similarity_distribution.html"
     style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
