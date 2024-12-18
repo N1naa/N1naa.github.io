@@ -154,6 +154,18 @@ layout: home
     <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
     <p>&nbsp;</p>
     <br>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="/assets/data/conditional_probability_description_dark.html"
+    width="600"
+    height="450"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div class="main content">
     <p>&nbsp;</p>
     <img src="{{ '/assets/img/probas_dark.png' | relative_url }}" width="600">
     <p>&nbsp;</p>
