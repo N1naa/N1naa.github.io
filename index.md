@@ -119,7 +119,7 @@ layout: home
     <h> test</h>
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 650px;">
   <iframe 
     src="/assets/data/title_similarity_distribution.html"
     width="800"
@@ -128,7 +128,7 @@ layout: home
   </iframe>
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px; margin-bottom: 20px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 650px; margin-bottom: 20px;">
   <iframe 
     src="/assets/data/description_similarity_distribution.html"
     width="800"
