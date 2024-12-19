@@ -104,7 +104,7 @@ layout: home
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
-    src="/assets/data/common_neighbors_distribution_dark.html"
+    src="/assets/data/common_neighbors_distribution_merged.html"
     width="600"
     height="450"
     style="border: none;">
