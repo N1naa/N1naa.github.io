@@ -195,12 +195,20 @@ layout: home
     <h5>Graph Features</h5>
     <br>
     <h>Node2Vec: Node2Vec is an algorithm designed to create vector representations (embeddings) of nodes in a network by simulating biased random walks. This allows for capturing both local neighborhood structures and global network relationships. Node2Vec strikes a balance between breadth-first (BFS) and depth-first (DFS) strategies, enabling the embeddings to capture both homophilic (similar nodes connected) and structural equivalences (nodes playing similar roles in different parts of the graph).
-    <p>&nbsp;</p>
   </div>
 
-  <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="{{ '/assets/data/experiment_metrics_comparison.html' | relative_url }}"
+    width="1200"
+    height="450"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="{{ '/assets/data/all_experiments_validation_loss.html' | relative_url }}"
     width="1200"
     height="450"
     style="border: none;">
