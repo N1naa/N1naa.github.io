@@ -215,6 +215,26 @@ layout: home
   </iframe>
 </div>
 
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px; margin-bottom: 20px;">
+  <iframe 
+    src="/assets/data/source_categories_distribution.html"
+    width="1000"
+    height="750"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="/assets/data/target_categories_distribution.html"
+    width="1000"
+    height="750"
+    style="border: none;">
+  </iframe>
+</div>
+
+
+
 <div class="main content">
     <h1>Data's Finale</h1>
     <p>Talk about what happend to our data after connections</p>
