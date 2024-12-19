@@ -24,19 +24,11 @@ layout: home
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h1>Welcome to the Knowledge Cosmos, where <span style="font-weight: bold;">PLANET WIKIPEDIA</span> exists.</h1>
+<p>&nbsp;</p>
+<img src="{{ '/assets/img/Network.png' | relative_url }}" width="80%">
+<p>&nbsp;</p>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 <div class="main-content">
     <p>Planet Wikipedia is a huge and constantly expanding world where towns and cities represent articles. The roads connecting these towns allow citizen lifeforms to travel between ideas. For centuries, these roads were built manually by a group of people called the First Pathfinders, but their work, although amazing, was imperfect. Some important towns are difficult to reach, being connected only with winding paths, while other towns, despite their great history or usefulness, sit isolated.</p>
     
@@ -58,20 +50,22 @@ layout: home
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
 
 
-    <h1> Chapter 1 | The Study: Getting to know Wikipedia. </h1>
+    <h1> Chapter 1 | The Study: Getting to know Planet Wikipedia. </h1>
     <p>The Architects start by studying their planet, to gain a better understanding, helping guide them to select an appropriate approach for their plan.</p>
-    <p>They start by creating a map of planet Wikipedia, seen below.</p>
+    <p>They start by crafting a directional map of Planet Wikipedia, visualizing the connections between towns (articles) to uncover the existing paths and gaps in the knowledge network.</p>
+
+    <p>As they observe the map, they notice a clear pattern: the largest cities, representing the most influential articles, have the most roads and connections to neighboring towns. On the other hand, smaller cities, symbolic of lesser-known topics, are more isolated, with fewer paths linking them to others.</p>
+
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="centered-video">
+            <source src="{{ '/assets/videos/graphRecording2.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
 
-    <p>&nbsp;</p>
-    <img src="{{ '/assets/img/Network.png' | relative_url }}" width="50%">
-    <p>&nbsp;</p>
 
     <h5>Graphical Statistical Analysis </h5>
     <br>
