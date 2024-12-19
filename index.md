@@ -54,7 +54,7 @@ layout: home
 
     <h1> Chapter 1 | The Study: Getting to know Planet Wikipedia. </h1>
     <p>The Architects start by studying their planet, to gain a better understanding, helping guide them to select an appropriate approach for their plan.</p>
-    <p>They start by crafting a directional map of Planet Wikipedia, using the SentenceTransformer("all-MiniLM-L6-v2") for natural language processing tasks that involve embedding sentences into a dense vector space. The goal is to visualize the connections between towns (articles) to uncover the existing paths and gaps in the knowledge network.</p>
+    <p>They start by crafting a directional map of Planet Wikipedia, visualizing the connections between towns (articles) to uncover the existing paths and gaps in the knowledge network.</p>
 
     <p>As they observe the map, they notice a clear pattern: the largest cities, representing the most influential articles, have the most roads and connections to neighboring towns. On the other hand, smaller cities, symbolic of lesser-known topics, are more isolated, with fewer paths linking them to others.</p>
 
@@ -65,39 +65,40 @@ layout: home
         </video>
     </div>
 
-    <p>The architects wonder what characteristics they could quantify? Aha! They decide to do some graphical statistical analysis! <p>
-    <!-- <h5>Graphical Statistical Analysis </h5> -->
+
+
+    <h5>Graphical Statistical Analysis </h5>
     <br>
-  </div>
-
-  <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
-    <iframe 
-      src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
-      width="600"
-      height="450"
-      style="border: none;">
-    </iframe>
-  </div>
-
-  <div class="main-content">
-      <br>
-      <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
-      <br>
-      <p>&nbsp;</p>
-      <h5>Node Features</h5>
-      <p>&nbsp;</p>
-      <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
-      <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
-          <img src="{{ '/assets/img/PageRank_dark.png' | relative_url }}" alt="PageRank Algorithm" style="max-width: 45%; height: auto; flex-shrink: 1;">
-          <img src="{{ '/assets/img/Eigenvector_dark.png' | relative_url }}" alt="Eigenvector Centrality" style="max-width: 45%; height: auto; flex-shrink: 1;">
-      </div>
-      <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
-      <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
-  </div>
+</div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
-    src="/assets/data/common_neighbors_distribution_merged.html"
+    src="{{ '/assets/data/degree_distribution_dark.html' | relative_url }}"
+    width="600"
+    height="450"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div class="main-content">
+    <br>
+    <h>To train the model, we introduce a set of handcrafted features tailored to the context of link prediction. These features are selected based on the project's aim and the statistical analysis conducted above. They are intended to be the most relevant for achieving effective link creation. Some of the methods are discussed in the paper "The Link Prediction Problem for Social Networks", by Nowell et al. https://www.cs.cornell.edu/home/kleinber/link-pred.pdf</h>
+    <br>
+    <p>&nbsp;</p>
+    <h5>Node Features</h5>
+    <p>&nbsp;</p>
+    <h>PageRank algorithm: This algorithm ranks nodes based on their importance in the network, determined by the structure of incoming links. The basic idea is that a node with a higher PageRank is more influential because it receives more incoming connections from other important nodes.</h>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 40px;">
+        <img src="{{ '/assets/img/PageRank_dark.png' | relative_url }}" alt="PageRank Algorithm" style="max-width: 45%; height: auto; flex-shrink: 1;">
+        <img src="{{ '/assets/img/Eigenvector_dark.png' | relative_url }}" alt="Eigenvector Centrality" style="max-width: 45%; height: auto; flex-shrink: 1;">
+    </div>
+    <h>Eigenvector Centrality: This is a measure of a node's influence within a network, where connections to highly influential nodes contribute more to a node's score than connections to less influential ones.</h>
+    <h>Now, we compare the number of common neighbors between two nodes x and y. Two nodes with a higher number of common neighbors have a higher probability to be linked in the future.</h>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="/assets/data/common_neighbors_distribution.html"
     width="650"
     height="450"
     style="border: none;">
@@ -105,36 +106,36 @@ layout: home
 </div>
 
 
-  <div class="main-content">
-      <br>
-      <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
-      <br>
-  </div>
+<div class="main-content">
+    <br>
+    <h>Cosine similarity between Text Embeddings: Cosine similarity is a measure of the resemblance between two vectors that represent word or text embeddings. The larger the angle between these vectors, the smaller the resemblance, and the smaller the cosine similarity. We compare the cosine similarity distribution for article titles and descriptions between unconnected and connected nodes. To avoid too large computational cost, we use a subset of our unconnected nodes.</h>
+    <br>
+</div>
 
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
-    src="/assets/data/title_similarity_distribution2.html"
+    src="/assets/data/title_similarity_distribution.html"
     style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
-    src="/assets/data/description_similarity_distribution2.html"
+    src="/assets/data/description_similarity_distribution.html"
     style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
 
 
-  <div class="main content">
-      <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
-      <br>
-  </div>
+<div class="main content">
+    <h>Below we compare the cosine similarity between titles and descriptions of connected and unconnected node pairs. As expected, unconnected cases have smaller values.</h>
+    <br>
+</div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
-    src="/assets/data/cosine_similarity_titles_boxplot.html"
+    src="/assets/data/cosine_similarity_title_boxplot.html"
     width="600"
     height="450"
     style="border: none;">
@@ -147,22 +148,18 @@ layout: home
     <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
     <p>&nbsp;</p>
     <br>
-    <h> Test </h>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="/assets/data/conditional_probability_description_dark.html"
-    width="1200"
+    width="600"
     height="450"
     style="border: none;">
   </iframe>
 </div>
 
 <div class="main content">
-    <p>&nbsp;</p>
-    <img src="{{ '/assets/img/probas_dark.png' | relative_url }}" width="600">
-    <p>&nbsp;</p>
     <br>
     <h1>Data's Feature Engineering</h1>
     <h>Now we can finally explore the feature characteristics...</h>
@@ -198,12 +195,20 @@ layout: home
     <h5>Graph Features</h5>
     <br>
     <h>Node2Vec: Node2Vec is an algorithm designed to create vector representations (embeddings) of nodes in a network by simulating biased random walks. This allows for capturing both local neighborhood structures and global network relationships. Node2Vec strikes a balance between breadth-first (BFS) and depth-first (DFS) strategies, enabling the embeddings to capture both homophilic (similar nodes connected) and structural equivalences (nodes playing similar roles in different parts of the graph).
-    <p>&nbsp;</p>
   </div>
 
-  <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="{{ '/assets/data/experiment_metrics_comparison.html' | relative_url }}"
+    width="1200"
+    height="450"
+    style="border: none;">
+  </iframe>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
+  <iframe 
+    src="{{ '/assets/data/all_experiments_validation_loss.html' | relative_url }}"
     width="1200"
     height="450"
     style="border: none;">
@@ -224,28 +229,28 @@ layout: home
     </div>
 </div>
 
-  <style>
-    /* Center the video container */
-    .video-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;  /* Add space between video and content */
-      padding: 0 20px; /* Add some horizontal padding */
-    }
+<style>
+  /* Center the video container */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;  /* Add space between video and content */
+    padding: 0 20px; /* Add some horizontal padding */
+  }
 
-    /* Make the video larger and higher */
-    .centered-video {
-      width: 100%;      /* Make video take full width of the container */
-      height: 80vh;     /* Set the height to 80% of the viewport height (you can adjust this) */
-      object-fit: cover; /* Ensures video covers the space without stretching */
-    }
+  /* Make the video larger and higher */
+  .centered-video {
+    width: 100%;      /* Make video take full width of the container */
+    height: 80vh;     /* Set the height to 80% of the viewport height (you can adjust this) */
+    object-fit: cover; /* Ensures video covers the space without stretching */
+  }
 
-    /* Increase the content's margin for more spacing on the page */
-    .main-content {
-      margin: 0 auto;    /* Center content */
-      max-width: 1200px;  /* You can adjust this width to make the content wider */
-      padding: 20px;      /* Add some padding for spacing around the content */
-    }
+  /* Increase the content's margin for more spacing on the page */
+  .main-content {
+    margin: 0 auto;    /* Center content */
+    max-width: 1200px;  /* You can adjust this width to make the content wider */
+    padding: 20px;      /* Add some padding for spacing around the content */
+  }
 
-  </style>
+</style>
