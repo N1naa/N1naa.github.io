@@ -19,10 +19,7 @@ layout: home
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 <h1>Welcome to the Knowledge Cosmos, where <span style="font-weight: bold;">PLANET WIKIPEDIA</span> exists.</h1>
 <p>&nbsp;</p>
 <img src="{{ '/assets/img/Network.png' | relative_url }}" width="80%">
@@ -67,7 +64,7 @@ layout: home
         The Architects of Connection perform some analysis of the relationships between towns. 
         Before moving on to more complicated features, they analyze the 
         degree of node connections in search of influential towns, meaning those with numerous 
-        links serving as crucial hubs for fast travel.
+        links serving as crucial hubs for fast travel. The graph is well-connected with a high average degree, local clusters, and a short average path length (~2.53), but low density suggests room for new links. Feature engineering should focus on local structures, short paths, and global features due to the graph's connectivity.
       </p>
     </div>
   </div>
@@ -288,7 +285,6 @@ layout: home
 
 
 <div class="main content">
-    <p>Talk about what happend to our data after connections</p>
     <p>&nbsp;</p>
     <h1>Thank you for discovering Planet Wikipedia's story </h1>
     <p>&nbsp;</p>
@@ -299,6 +295,7 @@ layout: home
         </video>
     </div>
 </div>
+<p> A project by Collectif Metisser: Alfred Arnaud, Nina Bodenstab, Alexis Limozin, Angeline Prasanna, Antoine Violet.
 
 <style>
   /* Center the video container */
