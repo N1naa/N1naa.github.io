@@ -104,7 +104,7 @@ layout: home
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
-    src="/assets/data/common_neighbors_distribution_merged.html"
+    src="/assets/data/common_neighbors_distribution.html"
     width="650"
     height="450"
     style="border: none;">
@@ -121,14 +121,14 @@ layout: home
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
-    src="/assets/data/title_similarity_distribution2.html"
+    src="/assets/data/title_similarity_distribution.html"
     style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
   <iframe 
-    src="/assets/data/description_similarity_distribution2.html"
+    src="/assets/data/description_similarity_distribution.html"
     style="border: none; width: 100%; height: 80vh; min-height: 400px;">
   </iframe>
 </div>
@@ -141,7 +141,7 @@ layout: home
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
-    src="/assets/data/cosine_similarity_titles_boxplot.html"
+    src="/assets/data/cosine_similarity_title_boxplot.html"
     width="600"
     height="450"
     style="border: none;">
@@ -154,22 +154,18 @@ layout: home
     <h>The probability of being connected according to the cosine similarity distributions can be calculated and represented here below.</h>
     <p>&nbsp;</p>
     <br>
-    <h> Test </h>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 600px;">
   <iframe 
     src="/assets/data/conditional_probability_description_dark.html"
-    width="1200"
+    width="600"
     height="450"
     style="border: none;">
   </iframe>
 </div>
 
 <div class="main content">
-    <p>&nbsp;</p>
-    <img src="{{ '/assets/img/probas_dark.png' | relative_url }}" width="600">
-    <p>&nbsp;</p>
     <br>
     <h1>Data's Feature Engineering</h1>
     <h>Now we can finally explore the feature characteristics...</h>
